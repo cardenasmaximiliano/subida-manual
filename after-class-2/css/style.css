@@ -1,0 +1,82 @@
+/* .titulos{
+    font-size: 40px;
+    color: lightcoral;
+    font-weight: 400;
+} */
+@import url('https://fonts.googleapis.com/css2? family= Zen+Dots & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navBar{
+    display: flex;
+    list-style: none;
+}
+
+.navBar li a{
+    text-decoration: none;
+}
+.navBar li a:hover{
+    color: red;
+}
+h1{
+    margin-bottom: 30px;
+    font-family: 'Zen Dots', cursive;
+}
+.boton{
+        margin-top: 20px;
+        text-align: center;
+        padding: 5px 12px;
+        border: 1px solid lightblue;
+        background-color: lightblue;
+        border-radius: 30px;
+        text-decoration: none;
+        color: white;
+}
+.section-tienda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.section-cards{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    background-color: rgba(248, 66, 66, 0.753);
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 0px;
+}
+.cards{
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: antiquewhite ;
+}
+.cards img{
+    width: 200px;
+}
+.cards-info h3{
+    text-align: center;
+}
+.cards-info div{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;
+}
+
+.video{
+    position: relative;
+}
+.video p{
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    top: 0;
+    right: 50%;
+}
